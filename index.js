@@ -9,3 +9,24 @@ const Intern = require('./lib/Intern.js');
 
 // Require index.html 
 const generateSite = require('./dist/index.html');
+
+// Team placeholder
+const Team = [];
+
+// Start of team builder questions
+// Manager prompt
+const getManager = () => {
+    return inquirer.prompt[{
+    type: "input",
+    message: "What is your manager's name?",
+    name: "Manager",
+    validate: managerInput => {
+        if (managerInput) {
+            return true;
+        } else {
+            console.log("Please enter manager's name");
+            return false;
+        }
+    }
+    }]
+},

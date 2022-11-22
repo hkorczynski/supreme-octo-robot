@@ -4,11 +4,29 @@ body {
     font-family:'Courier New', Courier, monospace;
 }
 
-header {
+.header {
     display: flex;
     justify-content: center;
     background-color: rgb(0, 255, 0);
     color: #161616;
     margin: 0;
     padding: 2em;
+}
+
+.teamCard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    border: lime 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.teamHeader {
+    display: flex;
+    flex-direction: column;
+    background-color: lime;
+    padding: .5em 4em;
 }

@@ -1,7 +1,7 @@
 # supreme-octo-robot
 Team profile generator 
 
-#Description
+## Description
 A set of inquirer questions that will build generate an html of your team's profile.
 
 ## Installation
